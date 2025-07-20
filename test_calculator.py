@@ -11,7 +11,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(self.calc.add(10, 5), 15)
 
     def test_subs(self):
-        self.assertEqual(self.calc.subs(10, 3), 9)
+        self.assertEqual(self.calc.subs(10, 3), 7)
 
     def test_divide(self):
         self.assertEqual(self.calc.divide(20, 4), 5.0)
