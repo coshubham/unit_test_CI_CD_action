@@ -21,11 +21,13 @@ jobs:
     
     - name: install dependencies
       run: |
+       ls -l
         pip install pytest
 
     - name: execute the test script
       run: |
         pytest test_calculator.py
+        pytest test_greeter.py
 
         
 
