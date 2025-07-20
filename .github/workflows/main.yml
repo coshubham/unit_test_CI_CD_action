@@ -21,6 +21,8 @@ jobs:
     
     - name: install dependencies
       run: |
+       date
+       free -h
        ls -l
         pip install pytest
 
